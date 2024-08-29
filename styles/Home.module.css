@@ -1,21 +1,29 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content:baseline;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
 }
 
 .description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
+  text-align: center;
+  /* display: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
   font-size: 0.85rem;
   max-width: var(--max-width);
-  width: 100%;
+  width: 25%;
   z-index: 2;
-  font-family: var(--font-mono);
+  font-family:'Times New Roman', Times, serif;
+}
+
+.title{
+  color:darkgrey;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 70px;
+  padding: 20px;
 }
 
 .description a {
